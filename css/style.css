@@ -1153,7 +1153,7 @@ main {
     display: none;
 }
 .pauseBtnPlayCardToggle {
-    display: flex !important;
+    display: inline-block !important;
 }
 .playBtnPlayCardToggle {
     display: none !important;

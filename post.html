@@ -31,7 +31,7 @@
         <nav id="navbarFixed">
             <ul>
                 <a href="javascript:void(0)" onclick="navbarMobileToggle()" title="Menu" aria-label="Menu" class="fa-bars-mobile"><span class="far fa-bars"></span></a>
-                <a href="index.html"><img src="images/logo/SVG/Audiospark_Logo_Icon.svg" alt="" title="spark"></a>
+                <a href="index.html"><img src="images/Audiospark_Logo_Icon.svg" alt="" title="spark"></a>
                 <ul id="navbarMobileToggle">
                     <a href="javascript:void(0)" onclick="navbarMobileToggle()" title="Close Menu" aria-label="Close Menu" class="fa-close-mobile"><span class="far fa-close"></span></a>
                     
@@ -46,7 +46,7 @@
                 <a href="javascript:void(0)" onclick="switchMode()" id="switchModeBtnDark" title="Switch Dark Mode" aria-label="Switch Dark Mode"><span class="far fa-moon"></span></a>
                 <a href="javascript:void(0)" onclick="switchMode()" id="switchModeBtnLight" title="Switch Light Mode" aria-label="Switch Light Mode"><span class="far fa-sun"></span></a>
                 <a href="javascript:void(0)" onclick="searchMode()" title="Search" aria-label="Search"><span class="far fa-search"></span></a>
-                <a href="javascript:void(0)" onclick="avatarDropdown()"><img src="C:\Users\hp\Downloads\avatar-2.jpg" alt=""></a>
+                <a href="javascript:void(0)" onclick="avatarDropdown()"><img src="images/avatar-2.jpg" alt=""></a>
 
                 <!-- AVATAR DORPDOWN -->
                 <div class="avatar-dropdown" id="avatarDropdown">
@@ -82,29 +82,29 @@
             <div class="support-chat-mode">
                 <!-- CHAT HEADER -->
                 <div class="support-chat-mode-header">
-                    <h4>Support <img src="C:\Users\hp\Downloads\th (7).jpeg" alt="" title="Audiospark Bot"></h4>
+                    <h4>Support <img src="images/th (7).jpeg" alt="" title="Audiospark Bot"></h4>
                     <a href="javascript:void(0)" onclick="supportChatMode()"><span class="far fa-close"></span></a>
                 </div>
                 <!-- CHAT BODY -->
                 <div class="support-chat-mode-body">
                     <div class="chat-date">Today, September 26, 2023</div>
                     <div class="section-message-bot">
-                        <img src="C:\Users\hp\Downloads\th (7).jpeg" alt="">
+                        <img src="images/th (7).jpeg" alt="">
                         <p>Hello! How can I assist you today?</p>
                     </div>
                     <div class="section-message-user">
-                        <img src="C:\Users\hp\Downloads\avatar-2.jpg" alt="">
+                        <img src="images/avatar-2.jpg" alt="">
                         <p>Hi</p>
                         <p>How to download as musics ZIP ???</p>
                     </div>
                     <div class="section-message-bot">
-                        <img src="C:\Users\hp\Downloads\th (7).jpeg" alt="">
+                        <img src="images/th (7).jpeg" alt="">
                         <p>You most first click on the 'DOWNLOAD' button to automatically download ZIP file after a few seconds.
                         <br><br>
                         If you have a problem, are you ready to be responsive to you.</p>
                     </div>
                     <div class="section-message-user">
-                        <img src="C:\Users\hp\Downloads\avatar-2.jpg" alt="">
+                        <img src="images/avatar-2.jpg" alt="">
                         <p>Thank you very much for your problem.</p>
                         <p>🙏🙏🙏</p>
                     </div>
@@ -126,7 +126,7 @@
         <header class="hero hero-page">
             <div>
                 <figure>
-                    <a href="C:\Users\hp\Downloads\th (8).jpeg"><img src="C:\Users\hp\Downloads\th (8).jpeg" alt=""></a>
+                    <a href="Cimages/th (8).jpeg"><img src="images/th (8).jpeg" alt=""></a>
                 </figure>
                 <div>
                     <h1>Songs</h1>
@@ -152,21 +152,23 @@
                 <div class="section-playlist-post-body">
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard" onclick="playSound()" title="Play" aria-label="Play"></span>
-                            <span class="far fa-pause" id="pauseBtnPlayCard" onclick="pauseSound()" title="Pause" aria-label="Pause"></span>
+                            <span class="far fa-play" id="playBtnPlayCard1" onclick="playSound1()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard1" onclick="pauseSound1()" title="Pause" aria-label="Pause"></span>
                             <h4>Poovai Poovai</h4>
                         </div>
                         <div>
                             <div>
-                                <span class="far fa-download" onclick="download()" title="Download" aria-label="Download"></span>
-                                <span class="far fa-heart" id="likeMusicPlay" onclick="likeMusicPlay()" title="Like" aria-label="Like"></span>
+                                <span class="far fa-download" onclick="" title="Download" aria-label="Download"></span>
+                                <span class="far fa-heart" onclick="" title="Like" aria-label="Like"></span>
+
                             </div>
                             <p>4:17</p>
                         </div>
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard2" onclick="playSound2()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard2" onclick="pauseSound2()" title="Pause" aria-label="Pause"></span>
                             <h4>Prema Vennala</h4>
                         </div>
                         <div>
@@ -179,7 +181,9 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard3" onclick="playSound3()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard3" onclick="pauseSound3()" title="Pause" aria-label="Pause"></span>
+
                             <h4>Raavana</h4>
                         </div>
                         <div>
@@ -192,8 +196,10 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
-                            <h4>Rolexr</h4>
+                            <span class="far fa-play" id="playBtnPlayCard4" onclick="playSound4()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard4" onclick="pauseSound4()" title="Pause" aria-label="Pause"></span>
+
+                            <h4>Rolex</h4>
                         </div>
                         <div>
                             <div>
@@ -205,7 +211,9 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard5" onclick="playSound5()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard5" onclick="pauseSound5()" title="Pause" aria-label="Pause"></span>
+
                             <h4>Dilli</h4>
                         </div>
                         <div>
@@ -218,7 +226,9 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard6" onclick="playSound6()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard6" onclick="pauseSound6()" title="Pause" aria-label="Pause"></span>
+
                             <h4>Kurchi Madathapethi</h4>
                         </div>
                         <div>
@@ -231,7 +241,9 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard7" onclick="playSound7()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard7" onclick="pauseSound7()" title="Pause" aria-label="Pause"></span>
+
                             <h4>Ringa Ringa</h4>
                         </div>
                         <div>
@@ -244,7 +256,9 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard8" onclick="playSound8()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard8" onclick="pauseSound8()" title="Pause" aria-label="Pause"></span>
+
                             <h4>Nuvvasthanante</h4>
                         </div>
                         <div>
@@ -257,7 +271,9 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard9" onclick="playSound9()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard9" onclick="pauseSound9()" title="Pause" aria-label="Pause"></span>
+
                             <h4>Aa Ante</h4>
                         </div>
                         <div>
@@ -270,7 +286,9 @@
                     </div>
                     <div class="section-playlist-post-play-card">
                         <div>
-                            <span class="far fa-play" id="playBtnPlayCard2" onclick="" title="Play" aria-label="Play"></span>
+                            <span class="far fa-play" id="playBtnPlayCard10" onclick="playSound10()" title="Play" aria-label="Play"></span>
+                            <span class="far fa-pause pauseBtnPlayCardToggle" id="pauseBtnPlayCard10" onclick="pauseSound10()" title="Pause" aria-label="Pause"></span>
+
                             <h4>Chiru Chiru</h4>
                         </div>
                         <div>
@@ -301,7 +319,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\WhatsApp Image 2024-04-21 at 3.22.32 PM (2).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/WhatsApp Image 2024-04-21 at 3.22.32 PM (2).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Emitemitemi</a></h4>
@@ -317,7 +335,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\Hridayam-Side-B-Malayalam-2022-20220118072809-500x500.jpg" alt=""></a>
+                                <a href="post.html"><img src="images/Hridayam-Side-B-Malayalam-2022-20220118072809-500x500.jpg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Darshana</a></h4>
@@ -333,7 +351,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\1time john wick 5 announced 1200.jpg" alt=""></a>
+                                <a href="post.html"><img src="images/1time john wick 5 announced 1200.jpg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">John Wick Chapter 3 Parabellum</a></h4>
@@ -349,7 +367,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\WhatsApp Image 2024-04-21 at 3.22.32 PM (1).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/WhatsApp Image 2024-04-21 at 3.22.32 PM (1).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Natu Natu</a></h4>
@@ -367,7 +385,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\WhatsApp Image 2024-04-21 at 3.22.31 PM (8).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/WhatsApp Image 2024-04-21 at 3.22.31 PM (8).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Kuthanthram</a></h4>
@@ -383,7 +401,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\OneDrive - Lovely Professional University\Pictures\Balapam pati.jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/Balapam pati.jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Balapam Patti</a></h4>
@@ -399,7 +417,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\WhatsApp Image 2024-04-21 at 3.22.31 PM (7).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/WhatsApp Image 2024-04-21 at 3.22.31 PM (7).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Akalesthey</a></h4>
@@ -415,7 +433,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\WhatsApp Image 2024-04-21 at 3.22.31 PM (6).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/WhatsApp Image 2024-04-21 at 3.22.31 PM (6).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Aasha Pasham</a></h4>
@@ -433,7 +451,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\OneDrive - Lovely Professional University\Pictures\tum hi ho.jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/tum hi ho.jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Tum hi ho</a></h4>
@@ -449,7 +467,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\OneDrive - Lovely Professional University\Pictures\Hukum.jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/Hukum.jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Hukuk</a></h4>
@@ -465,7 +483,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\th.jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/th.jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Arere Yekkada</a></h4>
@@ -481,7 +499,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\th (1).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/th (1).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">chal chalo </a></h4>
@@ -499,7 +517,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\th (5).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/th (5).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">chirunama thana chirunama</a></h4>
@@ -515,7 +533,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\th (3).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/th (3).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Choosi Chudangane</a></h4>
@@ -531,7 +549,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\hridayam.jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/hridayam.jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Darshana</a></h4>
@@ -547,7 +565,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\th (4).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/th (4).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Emo Emo</a></h4>
@@ -565,7 +583,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\th (2).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/th (2).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Hulala</a></h4>
@@ -581,7 +599,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\WhatsApp Image 2024-04-21 at 3.22.31 PM (4).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/WhatsApp Image 2024-04-21 at 3.22.31 PM (4).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Rolex</a></h4>
@@ -597,7 +615,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\WhatsApp Image 2024-04-21 at 3.22.31 PM (3).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/WhatsApp Image 2024-04-21 at 3.22.31 PM (3).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Dilli</a></h4>
@@ -613,7 +631,7 @@
                                 <div>
                                     <span class="far fa-play" onclick=""></span>
                                 </div>
-                                <a href="post.html"><img src="C:\Users\hp\Downloads\th (6).jpeg" alt=""></a>
+                                <a href="post.html"><img src="images/th (6).jpeg" alt=""></a>
                             </figure>
                             <div class="card-playing-horizontal-body">
                                 <h4><a href="post.html">Jingidi</a></h4>
@@ -633,7 +651,7 @@
                 <div>
                     <span class="far fa-angle-down" id="collapseMusicPlayerBtn" onclick="collapseMusicPlayer()"></span>
                     <span class="far fa-angle-up" id="expandMusicPlayerBtn" onclick="collapseMusicPlayer()"></span>
-                    <img src="C:\Users\hp\Downloads\download (2).jpeg" alt="">
+                    <img src="images/aarya.jpeg" alt="">
                     <div>
                         <h4>Uppenanta</h4>
                         <a href="user.html">Aarya 2</a>
@@ -664,7 +682,7 @@
                 </div>
                 <div class="section-full-player-body">
                     <figure>
-                        <img src="C:\Users\hp\Downloads\download (2).jpeg" alt="">
+                        <img src="images/aarya.jpeg" alt="">
                     </figure>
                     <div>
                         <div>
@@ -696,7 +714,7 @@
                         <span class="far fa-close" onclick="download()" title="Close" aria-label="Close"></span>
                     </div>
                     <div class="section-download-body">
-                        <a href="user.html"><img src="C:\Users\hp\OneDrive - Lovely Professional University\Pictures\download.png" alt=""></a>
+                        <a href="user.html"><img src="images/thankyou.jpg" alt=""></a>
                         <h3>Spark  Music</h3>
                         <p>By downloading, you agree to our <a href="">License</a><p>
                         <a href="user.html" class="btn-secondary">Profile</a>
@@ -711,8 +729,8 @@
             <div class="footer-grid">
                 <ul>
                     <div>
-                        <img src="images/logo/SVG/Audiospark_Logo.svg" alt="" width="150px" id="logoFooterModeLight">
-                        <img src="images/logo/SVG/Audiospark_Logo_White.svg" alt="" width="150px" id="logoFooterModeDark">
+                        <img src="images/Audiospark_Logo.svg" alt="" width="150px" id="logoFooterModeLight">
+                        <img src="images/Audiospark_Logo_White.svg" alt="" width="150px" id="logoFooterModeDark">
                         <p>An unparalleled experience of sound magic, spark</p>
 
                         <!-- SOCIAL MEDIA -->
@@ -724,8 +742,8 @@
 
                         <!-- FOOTER ICON -->
                         <ul class="footer-icon">
-                            <a href=""><img src="C:\Users\hp\Downloads\apple_download.svg" alt="" width="100"></a>
-                            <a href=""><img src="C:\Users\hp\Downloads\google_download.svg" alt="" width="100"></a>
+                            <a href=""><img src="images/apple_download.svg" alt="" width="100"></a>
+                            <a href=""><img src="images/google_download.svg" alt="" width="100"></a>
                         </ul>
                     </div>
                 </ul>
